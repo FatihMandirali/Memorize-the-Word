@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Kelime Hazinem</string>
+
+    <array name="Diller">
+        <item>İngilizce</item>
+        <item>Almanca</item>
+        <item>Fransızca</item>
+        <item>İtalyanca</item>
+        <item>İspanyolca</item>
+        <item>Portekizce</item>
+    </array>
+</resources>

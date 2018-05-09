@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:background="@drawable/kelime_hazinem22">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:id="@+id/lineerbutonlar">
+
+        <Button
+            android:layout_width="150dp"
+            android:layout_height="100dp"
+            android:text="a"
+            android:id="@+id/btna" />
+
+        <Button
+            android:layout_width="150dp"
+            android:layout_height="100dp"
+            android:text="b"
+            android:id="@+id/btnb" />
+
+        <Button
+            android:layout_width="150dp"
+            android:layout_height="100dp"
+            android:text="c"
+            android:id="@+id/btnc" />
+
+        <Button
+            android:layout_width="150dp"
+            android:layout_height="100dp"
+            android:text="d"
+            android:id="@+id/btnd" />
+
+    </LinearLayout>
+
+    <Button
+        android:layout_width="150dp"
+        android:layout_height="100dp"
+        android:text="Kelime"
+        android:id="@+id/btnkelime"
+        android:layout_weight="1"
+        android:layout_gravity="center_vertical"
+        android:layout_centerVertical="true"
+        android:layout_alignParentStart="true" />
+</RelativeLayout>

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:background="@drawable/kelime_hazinem22">
+
+    <Button
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:text="Test Et"
+        android:id="@+id/btntestet"
+        android:textSize="15dp"
+        android:layout_marginTop="44dp"
+        android:visibility="visible"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:text="Kelime Ekle"
+        android:id="@+id/btnkelimekle"
+        android:textSize="15dp"
+        android:visibility="visible"
+        android:layout_marginTop="103dp"
+        android:layout_below="@+id/btntestet"
+        android:layout_alignStart="@+id/btntestet" />
+
+    <Button
+        android:layout_width="180dp"
+        android:layout_height="50dp"
+        android:text="Kelimeleri Gör"
+        android:id="@+id/btnkelimelerigor"
+        android:textSize="15dp"
+        android:layout_marginTop="95dp"
+        android:visibility="visible"
+        android:layout_below="@+id/btnkelimekle"
+        android:layout_centerHorizontal="true" />
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:id="@+id/lineerReklamBanner"
+        android:layout_alignParentEnd="true"
+        android:layout_centerHorizontal="true"></LinearLayout>
+
+</RelativeLayout>

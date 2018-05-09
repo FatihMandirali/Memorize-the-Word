@@ -1,0 +1,17 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="actionModeStyle">@style/MyActionMode</item>
+    </style>
+    <style name="MyActionMode" parent="@style/Widget.AppCompat.ActionMode">
+        <item name="background">@android:color/holo_orange_light</item>
+    </style>
+    <string name="reklambanner"> ca-app-pub-8449130834114994/7379197461</string>
+    <string name="reklamgecis">ca-app-pub-8449130834114994/7928915668 </string>
+
+</resources>

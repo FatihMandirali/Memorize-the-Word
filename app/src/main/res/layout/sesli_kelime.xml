@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:background="@drawable/kelime_hazinem22">
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="A"
+        android:id="@+id/btna"
+        android:layout_marginTop="83dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="43dp" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="B"
+        android:id="@+id/btnb"
+        android:layout_alignTop="@+id/btna"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="47dp" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="C"
+        android:id="@+id/btnc"
+        android:layout_marginTop="49dp"
+        android:layout_below="@+id/btna"
+        android:layout_alignEnd="@+id/btna" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="D"
+        android:id="@+id/btnd"
+        android:layout_alignTop="@+id/btnc"
+        android:layout_alignStart="@+id/btnb" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Kelime İste"
+        android:id="@+id/btnkelime"
+        android:layout_below="@+id/btnc"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="53dp" />
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:id="@+id/lineerReklamBanner"
+        android:layout_alignParentEnd="true"
+        android:layout_centerHorizontal="true"></LinearLayout>
+</RelativeLayout>
